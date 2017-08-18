@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
+import FileUpload from './FileUpload';
 import './App.css';
 
 class App extends Component {
@@ -54,6 +55,9 @@ renderLoginButton(){
             <br/>
             Tu Email es {this.state.user.email}
           </h1>
+
+            <FileUpload />
+
                  <button onClick={this.handleLogout}>Salir</button>
 
           </div>

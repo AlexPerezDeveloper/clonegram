@@ -11,7 +11,7 @@ firebase.initializeApp({
     authDomain: "clonegram-1c26c.firebaseapp.com",
     databaseURL: "https://clonegram-1c26c.firebaseio.com",
     projectId: "clonegram-1c26c",
-    storageBucket: "",
+    storageBucket: "clonegram-1c26c.appspot.com",
     messagingSenderId: "56608186317"
 });
 
